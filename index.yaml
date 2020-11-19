@@ -1,0 +1,97 @@
+apiVersion: v1
+entries:
+  kubebox:
+  - apiVersion: v2
+    appVersion: 0.8.0
+    created: "2020-11-19T18:29:32.445236647Z"
+    description: Terminal and Web console for Kubernetes
+    digest: a2d1344679b6516ce7a86f1725076ed5520ff9a51c106eed13cd97c3a9ef0d00
+    home: https://github.com/astefanutti/kubebox
+    maintainers:
+    - email: sebastien.prudhomme@gmail.com
+      name: sebastien-prudhomme
+    name: kubebox
+    urls:
+    - https://github.com/sebastien-prudhomme/cowboysysop-charts-test/releases/download/kubebox-2.0.0/kubebox-2.0.0.tgz
+    version: 2.0.0
+  kubeview:
+  - apiVersion: v2
+    appVersion: 0.1.11
+    created: "2020-11-19T18:29:32.512167059Z"
+    description: Kubernetes cluster visualiser and graphical explorer
+    digest: a5f42150bac432154ca2c4bfb19c3f6c78ef4d401ca7e40ff00d8e38ec798c5e
+    home: https://github.com/benc-uk/kubeview
+    icon: https://raw.githubusercontent.com/benc-uk/kubeview/master/web/client/public/favicon.png
+    maintainers:
+    - email: sebastien.prudhomme@gmail.com
+      name: sebastien-prudhomme
+    name: kubeview
+    urls:
+    - https://github.com/sebastien-prudhomme/cowboysysop-charts-test/releases/download/kubeview-2.0.0/kubeview-2.0.0.tgz
+    version: 2.0.0
+  lighthouse-ci:
+  - apiVersion: v2
+    appVersion: 0.6.0
+    created: "2020-11-19T18:29:32.585285772Z"
+    description: Enables running a server to display Lighthouse CI results
+    digest: b22542c70a3f0671c3b569041a8ebe3ffbf24ecb9a0b08b8510e506afe99dd71
+    home: https://github.com/GoogleChrome/lighthouse-ci
+    icon: https://raw.githubusercontent.com/GoogleChrome/lighthouse-ci/master/packages/server/src/ui/logo.svg
+    maintainers:
+    - email: sebastien.prudhomme@gmail.com
+      name: sebastien-prudhomme
+    name: lighthouse-ci
+    urls:
+    - https://github.com/sebastien-prudhomme/cowboysysop-charts-test/releases/download/lighthouse-ci-2.0.0/lighthouse-ci-2.0.0.tgz
+    version: 2.0.0
+  mongo-express:
+  - apiVersion: v2
+    appVersion: 0.54.0
+    created: "2020-11-19T18:29:32.674783888Z"
+    dependencies:
+    - condition: mongodb.enabled
+      name: mongodb
+      repository: https://charts.bitnami.com/bitnami/
+      version: 10.0.5
+    description: Web-based MongoDB admin interface, written with Node.js and express
+    digest: fe1bf7628c2780aef3f53b05876923bf3bed0473b7cf5312fa4df8845be6256e
+    home: https://github.com/mongo-express/mongo-express
+    icon: https://raw.githubusercontent.com/mongo-express/mongo-express/master/public/images/mongo-express-logo.png
+    maintainers:
+    - email: sebastien.prudhomme@gmail.com
+      name: sebastien-prudhomme
+    name: mongo-express
+    urls:
+    - https://github.com/sebastien-prudhomme/cowboysysop-charts-test/releases/download/mongo-express-2.0.0/mongo-express-2.0.0.tgz
+    version: 2.0.0
+  vertical-pod-autoscaler:
+  - apiVersion: v2
+    appVersion: 0.9.0
+    created: "2020-11-19T18:29:32.745621701Z"
+    description: Set of components that automatically adjust the amount of CPU and
+      memory requested by pods running in the Kubernetes Cluster
+    digest: 5e4b93cd07b272ee871876f3f6b8012e99f09cbe8436119bba4ab5bf8aff7b9d
+    home: https://github.com/kubernetes/autoscaler
+    maintainers:
+    - email: sebastien.prudhomme@gmail.com
+      name: sebastien-prudhomme
+    name: vertical-pod-autoscaler
+    urls:
+    - https://github.com/sebastien-prudhomme/cowboysysop-charts-test/releases/download/vertical-pod-autoscaler-3.0.0/vertical-pod-autoscaler-3.0.0.tgz
+    version: 3.0.0
+  whoami:
+  - apiVersion: v2
+    appVersion: 1.5.0
+    created: "2020-11-19T18:29:32.819097314Z"
+    description: Tiny Go webserver that prints os information and HTTP request to
+      output
+    digest: 7234880833ea4900b30b0e5a66228526ba64fdcbd856ca645ca4f10af35b97de
+    home: https://github.com/containous/whoami
+    maintainers:
+    - email: sebastien.prudhomme@gmail.com
+      name: sebastien-prudhomme
+    name: whoami
+    urls:
+    - https://github.com/sebastien-prudhomme/cowboysysop-charts-test/releases/download/whoami-2.0.0/whoami-2.0.0.tgz
+    version: 2.0.0
+generated: "2020-11-19T18:29:32.338450928Z"
