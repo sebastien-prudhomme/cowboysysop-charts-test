@@ -1,8 +1,5 @@
 {
   "dependencyDashboard": true,
-  "includePaths": [
-    ".github/workflows/**"
-  ],
   "semanticCommits": "enabled",
   "semanticCommitScope": null,
   "semanticCommitType": "fix",
