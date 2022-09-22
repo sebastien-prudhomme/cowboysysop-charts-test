@@ -379,7 +379,7 @@ updater:
 
   image:
     repository: k8s.gcr.io/autoscaling/vpa-updater
-    tag: 0.11.0
+    tag: 0.12.0
     pullPolicy: IfNotPresent
 
   pdb:
