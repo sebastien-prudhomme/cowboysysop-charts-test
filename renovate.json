@@ -1,12 +1,9 @@
 {
   "dependencyDashboard": true,
-  "includePaths": [
-    ".github/workflows/**",
-    "charts/*/Chart.yaml"
-  ],
   "semanticCommits": "enabled",
   "semanticCommitScope": null,
   "semanticCommitType": "fix",
+  "bumpVersion": "patch",
   "packageRules": [
     {
       "matchPaths": [
