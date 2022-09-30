@@ -177,7 +177,7 @@ dbManager:
 
   image:
     repository: kubeflowkatib/katib-db-manager
-    tag: v0.12.0
+    tag: v0.14.0
     pullPolicy: IfNotPresent
 
   pdb:
