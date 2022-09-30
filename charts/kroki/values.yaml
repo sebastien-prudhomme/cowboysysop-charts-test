@@ -184,7 +184,7 @@ blockdiag:
 
   image:
     repository: yuzutech/kroki-blockdiag
-    tag: 0.15.0
+    tag: 0.17.2
     pullPolicy: IfNotPresent
 
   securityContext: {}
