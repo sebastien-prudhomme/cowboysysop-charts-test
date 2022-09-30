@@ -227,7 +227,7 @@ bpmn:
 
   image:
     repository: yuzutech/kroki-bpmn
-    tag: 0.15.0
+    tag: 0.17.2
     pullPolicy: IfNotPresent
 
   securityContext: {}
