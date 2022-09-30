@@ -313,7 +313,7 @@ mermaid:
 
   image:
     repository: yuzutech/kroki-mermaid
-    tag: 0.15.0
+    tag: 0.17.2
     pullPolicy: IfNotPresent
 
   securityContext: {}
