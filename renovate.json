@@ -6,6 +6,24 @@
   "bumpVersion": "patch",
   "packageRules": [
     {
+      "matchPackagePrefixes": [
+        "kubeflowkatib/katib"
+      ],
+      "groupName": "kubeflowkatib/katib"
+    },
+    {
+      "matchPackagePrefixes": [
+        "yuzutech/kroki"
+      ],
+      "groupName": "yuzutech/kroki"
+    },
+    {
+      "matchPackagePrefixes": [
+        "k8s.gcr.io/autoscaling/vpa"
+      ],
+      "groupName": "k8s.gcr.io/autoscaling/vpa"
+    },
+    {
       "matchPaths": [
         ".github/workflows/**"
       ],
