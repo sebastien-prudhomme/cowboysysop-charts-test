@@ -48,6 +48,26 @@
       "enabled": false
     },
     {
+      "matchPaths": [
+        "charts/*/Chart.yaml",
+        "charts/*/values.yaml"
+      ],
+      "matchUpdateTypes": [
+        "major"
+      ],
+      "semanticCommitType": "feat!"
+    },
+    {
+      "matchPaths": [
+        "charts/*/Chart.yaml",
+        "charts/*/values.yaml"
+      ],
+      "matchUpdateTypes": [
+        "minor"
+      ],
+      "semanticCommitType": "feat"
+    },
+    {
       "matchUpdateTypes": [
         "patch"
       ],
