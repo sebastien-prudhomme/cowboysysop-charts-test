@@ -74,6 +74,13 @@
         "patch"
       ],
       "automerge": true
+    },
+    {
+      "matchPaths": [
+        "charts/*/Chart.yaml",
+        "charts/*/values.yaml"
+      ],
+      "semanticCommitScope": "{{parentDir}}"
     }
   ],
   "regexManagers": [
