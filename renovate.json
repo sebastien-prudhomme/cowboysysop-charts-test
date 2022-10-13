@@ -3,6 +3,7 @@
   "semanticCommits": "enabled",
   "semanticCommitScope": null,
   "semanticCommitType": "fix",
+  "bumpVersion": "patch",
   "packageRules": [
     {
       "matchPackagePrefixes": [
@@ -54,7 +55,7 @@
       "matchUpdateTypes": [
         "major"
       ],
-      "semanticCommitType": "feat!"
+      "semanticCommitType": "feat!",
       "bumpVersion": "major"
     },
     {
@@ -72,8 +73,7 @@
       "matchUpdateTypes": [
         "patch"
       ],
-      "automerge": true,
-      "bumpVersion": "patch"
+      "automerge": true
     }
   ],
   "regexManagers": [
