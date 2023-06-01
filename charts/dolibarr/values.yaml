@@ -24,7 +24,7 @@ updateStrategy:
 
 image:
   repository: tuxgasy/dolibarr
-  tag: 15.0.3
+  tag: 17.0.2
   pullPolicy: IfNotPresent
 
 pdb:
