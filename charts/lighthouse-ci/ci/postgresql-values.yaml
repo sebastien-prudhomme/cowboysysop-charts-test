@@ -1,4 +1,0 @@
-fullnameOverride: lighthouse-ci
-postgresql:
-  enabled: true
-  fullnameOverride: postgresql
