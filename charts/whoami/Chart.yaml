@@ -9,10 +9,10 @@ name: whoami
 sources:
   - https://github.com/containous/whoami
   - https://github.com/cowboysysop/charts/tree/master/charts/whoami
-version: 3.0.0
+version: 4.0.0
 dependencies:
   - name: common
-    version: 1.16.1
+    version: 2.6.0
     repository: https://charts.bitnami.com/bitnami/
 annotations:
   artifacthub.io/signKey: |
