@@ -368,7 +368,7 @@ crds:
     repository: bitnami/kubectl
 
     # Image tag
-    tag: 1.23.1
+    tag: 1.27.4
 
     # Image pull policy
     pullPolicy: IfNotPresent
