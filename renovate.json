@@ -149,7 +149,7 @@
         "(:|-) (?<currentValue>.+?) # renovate: ghcr.io\\/renovate\\/renovate\\n"
       ],
       "datasourceTemplate": "docker",
-      "depNameTemplate": "ghcr.io/renovate/renovate"
+      "depNameTemplate": "ghcr.io/renovatebot/renovate"
     }
   ]
 }
