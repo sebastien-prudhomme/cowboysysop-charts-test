@@ -53,9 +53,6 @@ jobs:
 
       - name: Push to registry
         run: |
-          for package in .cr-release-packages/*.tgz; do
-            if [ -z "${package:-}" ]; then
-              break
-            fi
-            helm push "${package}" "oci://ghcr.io/${{ github.repository }}"
+          for package in $(ls .cr-release-packages/*.tgz); do
+            helm push ${package} oci://ghcr.io/${{ github.repository }}
           done
