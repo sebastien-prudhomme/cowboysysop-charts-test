@@ -47,7 +47,7 @@ jobs:
       - name: List charts
         id: list-charts
         run: |
-          charts=$(ls .cr-release-packages/*.tgz 2>/dev/null)
+          charts=$(ls .cr-release-packages/*.tgz 2>/dev/null || true)
           echo "charts=$charts" >> $GITHUB_OUTPUT
 
       - name: Login to registry
