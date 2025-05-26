@@ -53,6 +53,6 @@ jobs:
 
       - name: Push to registry
         run: |
-          for package in $(ls .cr-release-packages/*.tgz); do
+          for package in $(ls .cr-release-packages/*.tgz 2>/dev/null); do
             helm push ${package} oci://ghcr.io/${{ github.repository_owner }}/charts
           done
