@@ -12,6 +12,7 @@
   "packageRules": [
     {
       "matchManagers": [
+        "docker",
         "helm-values"
       ],
       "postUpgradeTasks": {
