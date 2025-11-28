@@ -151,7 +151,7 @@
       "matchStrings": [
         "appVersion: (?<currentValue>.+?) # renovate: (?<depName>.+?)\\n"
       ],
-      "datasourceTemplate": "docker",
+      "datasourceTemplate": "docker"
     }
   ]
 }
