@@ -143,5 +143,15 @@
       "datasourceTemplate": "docker",
       "depNameTemplate": "ghcr.io/renovatebot/renovate"
     }
+    {,
+      "customType": "regex",
+      "managerFilePatterns": [
+        "/^charts\\/.*\\/Chart.yaml$/"
+      ],
+      "matchStrings": [
+        "appVersion: (?<currentValue>.+?) # renovate: (?<depName>.+?)\\n"
+      ],
+      "datasourceTemplate": "docker",
+    }
   ]
 }
