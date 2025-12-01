@@ -1,5 +1,5 @@
 apiVersion: v2
-appVersion: 22.0.1 # renovate: docker.io/dolibarr/dolibarr
+appVersion: 22.0.1  # renovate: docker.io/dolibarr/dolibarr
 description: A modern software package to manage your company or foundation's activity
 home: https://www.dolibarr.org/
 icon: https://raw.githubusercontent.com/Dolibarr/dolibarr/develop/doc/images/dolibarr_256x256_color.svg

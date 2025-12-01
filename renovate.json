@@ -150,7 +150,7 @@
         "/^charts\\/.*\\/Chart.yaml$/"
       ],
       "matchStrings": [
-        "appVersion: (?<currentValue>.+?) # renovate: (?<depName>.+?)\\n"
+        "appVersion: (?<currentValue>.+?)  # renovate: (?<depName>.+?)\\n"
       ],
       "datasourceTemplate": "docker"
     }
