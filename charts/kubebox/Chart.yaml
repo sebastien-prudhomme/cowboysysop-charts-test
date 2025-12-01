@@ -1,5 +1,5 @@
 apiVersion: v2
-appVersion: 0.9.0
+appVersion: 0.9.0  # renovate: docker.io/astefanutti/kubebox
 description: Terminal and Web console for Kubernetes
 home: https://github.com/astefanutti/kubebox
 maintainers:

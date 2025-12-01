@@ -1,5 +1,5 @@
 apiVersion: v2
-appVersion: latest
+appVersion: latest  # renovate: docker.io/mcp/grafana
 description: Model Context Protocol server for Grafana
 home: https://github.com/grafana/mcp-grafana
 maintainers:

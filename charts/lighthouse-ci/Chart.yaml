@@ -1,5 +1,5 @@
 apiVersion: v2
-appVersion: 0.8.1
+appVersion: 0.8.1  # renovate: docker.io/patrickhulce/lhci-server
 description: Enables running a server to display Lighthouse CI results
 home: https://github.com/GoogleChrome/lighthouse-ci
 icon: https://raw.githubusercontent.com/GoogleChrome/lighthouse-ci/master/packages/server/src/ui/logo.svg

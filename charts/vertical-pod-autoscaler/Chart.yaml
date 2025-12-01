@@ -1,5 +1,5 @@
 apiVersion: v2
-appVersion: 1.5.0 # renovate: registry.k8s.io/autoscaling/vpa-admission-controller
+appVersion: 1.5.0  # renovate: registry.k8s.io/autoscaling/vpa-admission-controller
 description: Set of components that automatically adjust the amount of CPU and memory requested by pods running in the Kubernetes Cluster
 home: https://github.com/kubernetes/autoscaler
 icon: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.svg
