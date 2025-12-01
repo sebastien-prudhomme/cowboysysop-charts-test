@@ -11,9 +11,9 @@
   "semanticCommitType": "fix",
   "packageRules": [
     {
-      "matchManagers": [
-        "docker",
-        "helm-values"
+      "matchFileNames": [
+        "charts/*/Chart.yaml",
+        "charts/*/values.yaml"
       ],
       "postUpgradeTasks": {
         "commands": [
