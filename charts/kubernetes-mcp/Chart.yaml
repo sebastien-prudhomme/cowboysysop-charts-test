@@ -1,5 +1,5 @@
 apiVersion: v2
-appVersion: 0.0.47  # renovate: quay.io/manusa/kubernetes_mcp_server
+appVersion: 0.0.54  # renovate: quay.io/manusa/kubernetes_mcp_server
 description: Model Context Protocol server for Kubernetes
 home: https://github.com/manusa/kubernetes-mcp-server
 maintainers:
@@ -9,7 +9,7 @@ name: kubernetes-mcp
 sources:
   - https://github.com/manusa/kubernetes-mcp-server
   - https://github.com/cowboysysop/charts/tree/master/charts/kubernetes-mcp
-version: 2.0.0
+version: 2.0.1
 dependencies:
   - name: common
     version: 2.31.3
