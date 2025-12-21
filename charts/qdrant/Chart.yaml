@@ -1,5 +1,5 @@
 apiVersion: v2
-appVersion: 1.4.1  # renovate: docker.io/qdrant/qdrant
+appVersion: 1.16.3  # renovate: docker.io/qdrant/qdrant
 description: Vector similarity search engine and vector database
 home: https://qdrant.tech/
 icon: https://raw.githubusercontent.com/cowboysysop/charts/master/charts/qdrant/icon.png
@@ -10,7 +10,7 @@ name: qdrant
 sources:
   - https://github.com/qdrant/qdrant
   - https://github.com/cowboysysop/charts/tree/master/charts/qdrant
-version: 3.0.0
+version: 3.1.0
 dependencies:
   - name: common
     version: 2.31.3
